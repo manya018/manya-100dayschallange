@@ -1,21 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int a, b;
-    printf("Enter first number: ");
+int main(){
+    int a, b, c;
+    printf("value of a:");
     scanf("%d", &a);
-    printf("Enter second number: ");
+    printf("value of b:");
     scanf("%d", &b);
-
-    printf("\nSum = %d", a + b);
-    printf("\nDifference = %d", a - b);
-    printf("\nProduct = %d", a * b);
-
-    if (b != 0) {
-        printf("\nQuotient = %d\n", a / b);
-    } else {
-        printf("\nDivision not possible (denominator is 0)\n");
-    }
-
+    c=a+b;
+    printf("value of c: %d \n", c);
     return 0;
 }
