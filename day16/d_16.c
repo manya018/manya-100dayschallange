@@ -1,4 +1,4 @@
-//Write a program to check if a number is a palindrome.
+//Write a program to check if a number is a palindrome
 
 
 #include <stdio.h>
@@ -27,3 +27,4 @@ int main() {
 
     return 0;
 }
+
