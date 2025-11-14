@@ -6,7 +6,7 @@ int main(){
     char str[100];
     int count=0;
 
-    printf("enter string");
+    printf("enter string"):
 (str, sizeof(str), stdin);
 
  while (str[count] != '\0') {
